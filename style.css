@@ -83,6 +83,8 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
+    /* Bonus 2 */
+    z-index: 3;
   }
 
   /* Five */
@@ -90,19 +92,25 @@ body {
     position: absolute;
     bottom: 150px;
     right: 0;
+    /* Bonus 1 */
+    z-index: 5;
   }
-
+  
   /* Six */
   #mind {
     position: fixed;
     right: 0;
+    /* Bonus 2 */
+    z-index: 2;
   }
-
+  
   /* Seven */
   #time {
     position: fixed;
     top: 0;
     right: 0;
+    /* Bonus 2 */
+    z-index: 4;
   }
 
   /* Eight */
@@ -110,7 +118,12 @@ body {
   h1 {
     position: sticky;
     top: 0;
-    z-index: 5;
+    z-index: 2;
   }
 
-
+  /* Bonus 3 */
+  h2 {
+    position: sticky;
+    top: 65px;
+  }
+  
